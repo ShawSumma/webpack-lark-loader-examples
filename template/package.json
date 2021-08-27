@@ -1,0 +1,23 @@
+{
+  "name": "empty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "npx webpack --progress",
+    "run:dev": "npm run build:dev && node ./dist/index.js",
+    "build:prod": "npx webpack --progress --mode production",
+    "run:prod": "npm run build:prod && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-lark-loader": "^0.0.1"
+  }
+}

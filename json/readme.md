@@ -8,7 +8,7 @@ Which can then be turned into a javascript object.
 
 Install the dependencies required to build the json parser
 
-```
+```sh
 npm install
 ```
 
@@ -17,3 +17,13 @@ This will load the dependencies from [package.json](package.json) and install th
 ## Run The Parser!
 
 Build a bundle from [src/index.js](src/index.js), as specified by [the webpack config](webpack.config.js)
+
+```sh
+npx webpack
+```
+
+And run it
+
+```sh
+node ./dist/main.js
+```
